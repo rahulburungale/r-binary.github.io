@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="R-Binary Solutions provides software services for clients, specializing in web and mobile development, server management, and database solutions.">
+    <title>R-Binary Solutions</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header Styles */
+header {
+    background-color: #2c3e50;
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar .logo h1 {
+    color: #fff;
+}
+
+.navbar nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar nav ul li {
+    margin-left: 20px;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar nav ul li a:hover {
+    color: #3498db;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://via.placeholder.com/1500x600') no-repeat center center;
+    background-size: cover;
+    padding: 100px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #3498db;
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #2980b9;
+}
+
+/* Services Section */
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 20px;
+    background-color: #ecf0f1;
+}
+
+.service-item {
+    text-align: center;
+    width: 30%;
+}
+
+.service-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+/* About Section */
+.about {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #3498db;
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.contact .cta-button {
+    background-color: #fff;
+    color: #3498db;
+}
+
+.contact .cta-button:hover {
+    background-color: #2980b9;
+    color: #fff;
+}
+
+/* Footer Section */
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-item {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+}
+
+    </style>
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <div class="navbar">
+        <div class="logo">
+            <h1>R-Binary Solutions</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-content">
+        <h2>Welcome to R-Binary Solutions</h2>
+        <p>Your trusted partner for innovative software services</p>
+        <a href="#contact" class="cta-button">Get Started</a>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="services">
+    <div class="service-item">
+        <h3>Web & Mobile Development</h3>
+        <p>We specialize in creating user-friendly and high-performance websites and mobile applications tailored to your needs.</p>
+    </div>
+    <div class="service-item">
+        <h3>Managing Servers & Databases</h3>
+        <p>Our expert team ensures your servers and databases are secure, reliable, and optimized for peak performance.</p>
+    </div>
+    <div class="service-item">
+        <h3>Reasonable Offers Available</h3>
+        <p>We offer competitive pricing tailored to fit your project’s budget without compromising on quality.</p>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about">
+    <h2>About R-Binary Solutions</h2>
+    <p>At R-Binary Solutions, we are dedicated to delivering top-quality software services to our clients. With expertise in web and mobile development, server management, and database solutions, we offer a wide range of services to meet the needs of any business.</p>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Ready to start your next project with us? Reach out today!</p>
+    <a href="mailto:burungalerahul@gmail.com" class="cta-button">Email Us</a>
+</section>
+
+<!-- Footer Section -->
+<footer>
+    <p>&copy; <span id="current-year"></span> R-Binary Solutions | All Rights Reserved</p>
+</footer>
+
+<!-- JavaScript to dynamically update the current year -->
+<script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
